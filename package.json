@@ -1,0 +1,50 @@
+{
+  "_from": "git+https://github.com/GKerison/react-native-ushare.git",
+  "_id": "react-native-ushare-kerison@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-/bU/m5dp+t4CEHwCZ8un9uYidvU=",
+  "_location": "/react-native-ushare-kerison",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-ushare-kerison@git+https://github.com/GKerison/react-native-ushare.git",
+    "name": "react-native-ushare-kerison",
+    "escapedName": "react-native-ushare-kerison",
+    "rawSpec": "git+https://github.com/GKerison/react-native-ushare.git",
+    "saveSpec": "git+https://github.com/GKerison/react-native-ushare.git",
+    "fetchSpec": "https://github.com/GKerison/react-native-ushare.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/GKerison/react-native-ushare.git#556b3ae60dd93c9f9a794fc10235551e1c14c533",
+  "_spec": "react-native-ushare-kerison@git+https://github.com/GKerison/react-native-ushare.git",
+  "_where": "/Users/Developer/51parcel/51taouk/Client/i51taouk_app",
+  "author": {
+    "name": "kerison"
+  },
+  "bugs": {
+    "url": "https://github.com/GKerison/react-native-ushare/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "a share library for react-native",
+  "homepage": "https://github.com/GKerison/react-native-ushare#readme",
+  "keywords": [
+    "react-native",
+    "share"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react-native-ushare-kerison",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GKerison/react-native-ushare.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
