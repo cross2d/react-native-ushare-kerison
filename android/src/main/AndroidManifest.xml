@@ -29,9 +29,8 @@
             </intent-filter>
         </activity>
 
-        <!-- qq精简版 -->
         <activity
-            android:name="com.umeng.qq.tencent.AuthActivity"
+            android:name="com.tencent.tauth.AuthActivity"
             android:launchMode="singleTask"
             android:noHistory="true" >
 
@@ -41,14 +40,14 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="tencent100424468" />
             </intent-filter>
+
         </activity>
 
         <activity
-            android:name="com.umeng.qq.tencent.AssistActivity"
+            android:name="com.tencent.connect.common.AssistActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:configChanges="orientation|keyboardHidden|screenSize"/>
-
 
 
 
