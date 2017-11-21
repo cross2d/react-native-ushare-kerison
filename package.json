@@ -1,24 +1,55 @@
 {
   "name": "@cross2d/react-native-ushare",
-  "version": "1.0.3",
-  "description": "a share library for react-native",
+  "version": "1.1.1",
+  "description": "umeng share library for react-native",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "release": "npm publish --access public"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cross2d/react-native-ushare.git"
   },
+  "dependencies": {
+    "glob": "5.0.15",
+    "inquirer": "1.1.2",
+    "plist": "1.2.0",
+    "lodash": "4.17.2",
+    "xcode": "0.8.9",
+    "path": "0.12.7"
+  },
   "keywords": [
     "react-native",
     "share"
   ],
-  "author": "kerison",
+  "author": "colin3dmax",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cross2d/react-native-ushare/issues"
   },
-  "homepage": "https://github.com/cross2d/react-native-ushare#readme"
+  "homepage": "https://github.com/cross2d/react-native-ushare#readme",
+  "rnpm": {
+    "ios": {
+      "sharedLibraries": [
+        "SystemConfiguration",
+        "CoreTelephony",
+        "ImageIO",
+        "libsqlite3",
+        "libc++",
+        "libz",
+        "UMSocialCore.framework",
+        "UMSocialNetwork.framework",
+        "TencentOpenAPI.framework",
+        "libSocialQQ.a",
+        "libSocialSina.a",
+        "libWeiboSDK.a",
+        "libSocialWeChat.a",
+        "libWeChatSDK.a"
+      ]
+    },
+    "commands": {
+      "postlink": "node node_modules/@cross2d/react-native-ushare/scripts/postlink/postlink",
+      "postunlink": "node node_modules/@cross2d/react-native-ushare/scripts/postunlink/postunlink"
+    }
+  }
 }
