@@ -1,6 +1,6 @@
 {
   "name": "@cross2d/react-native-ushare",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "umeng share library for react-native",
   "main": "index.js",
   "scripts": {
