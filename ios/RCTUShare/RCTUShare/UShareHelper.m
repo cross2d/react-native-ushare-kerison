@@ -47,7 +47,7 @@
   }
   //调用分享接口
   [[UMSocialManager defaultManager] shareToPlatform:platform messageObject:messageObject currentViewController:nil completion:callback];
-  
+
 }
 
 +(void)authAndGetInfo:(UMSocialPlatformType)platform callback:(UMSocialRequestCompletionHandler)callback{

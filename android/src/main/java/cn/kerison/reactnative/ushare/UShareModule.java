@@ -70,7 +70,7 @@ public class UShareModule extends ReactContextBaseJavaModule {
                 @Override
                 public void run() {
                     ShareAction action = new ShareAction(mainActivity);
-                    action.withText(title+"\n"+desc+"\n"+url).withMedia(shareImage);
+                    action.withText(title+"\n"+desc).withMedia(shareImage);
 
                     UMWeb web = new UMWeb(url);
                     web.setTitle(title);        //标题
